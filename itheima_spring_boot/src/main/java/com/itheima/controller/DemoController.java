@@ -12,4 +12,10 @@ public class DemoController {
     public String method() {
         return "demo method";
     }
+
+    @RequestMapping("/method1")
+    @ResponseBody
+    public String method1() {
+        return "demo method1";
+    }
 }
